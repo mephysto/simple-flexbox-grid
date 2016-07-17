@@ -1,5 +1,3 @@
-// Check out Compiled CSS if you just want the source
-
 /* Grid */
 $guttersize: 20px;
 .grid {
@@ -115,41 +113,6 @@ $guttersize: 20px;
     }
     // desktop screens specifics
     @media only screen and (min-width: 80em) {
-    }
-  }
-}
-
-// Reset
-html,
-body{
-  font-size: 16px;
-}
-* {
-  box-sizing: border-box;
-}
-// Custom Styling. No need to copy this
-.unit{
-  margin: 10px 0;
-  background: rgba(#bada55, 0.5);
-  pre{
-    background: #bada55;
-  }
-}
-.btn{
-  display: block;
-  width: 350px;
-  margin: 10px auto;
-  padding: 10px 20px;
-  &:after{
-    display:block;
-    font-size: 10px;
-    content:"(flexbox is supported)";
-  }
-}
-.no-flexbox{
-  .btn{
-    &:after{
-      content:" (now simulating a browser which with no flexbox support)";
     }
   }
 }
