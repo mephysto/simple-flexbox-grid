@@ -1,13 +1,13 @@
 {
   "name": "simple-flexbox-grid",
   "version": "1.0.0",
-  "homepage": "https://github.com/mephysto/flexbox-grid",
+  "homepage": "https://github.com/mephysto/simple-flexbox-grid",
   "authors": [
     "Maurice Melchers <contact@mauricemelchers.nl>"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/mephysto/flexbox-grid.git"
+    "url": "git://github.com/mephysto/simple-flexbox-grid.git"
   },
   "description": "A simple responsive SCSS Flexbox grid",
   "main": "./flexbox-grid.css",
